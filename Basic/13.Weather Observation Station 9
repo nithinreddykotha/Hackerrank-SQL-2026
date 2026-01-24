@@ -1,0 +1,1 @@
+SELECT Distinct city from STATION where LEFT(city,1) NOT IN ('A','E','I','O','U');
